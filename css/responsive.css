@@ -22,7 +22,7 @@
   .show{
     background: url(../img/navbg.png);
     
-    border-radius: 22px;
+    border-radius: 0 0 50% 50%;
     background-size: cover;
     
   }
