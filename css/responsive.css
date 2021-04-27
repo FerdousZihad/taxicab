@@ -19,6 +19,13 @@
     margin: 30px auto;
     width:100%
   }
+  .show{
+    background: url(../img/navbg.png);
+    
+    border-radius: 22px;
+    background-size: cover;
+    
+  }
   
   
 }
