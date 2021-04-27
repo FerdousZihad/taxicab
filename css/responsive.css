@@ -15,23 +15,40 @@
     background: #ffc61a;
     border-radius:17px;
   }
+  .booking_form{
+    margin: 30px auto;
+    width:100%
+  }
   
   
 }
 /*-------------------------------------------------------------------------*/
 @media(max-width:768px){
-  
+  #aboutus .blog{
+    padding-right:20px;
+  }
 }
 /*-------------------------------------------------------------------------*/
-@media(max-width:556px){
-  
+@media(max-width:576px){
+  #aboutus .blog{
+    
+    padding-right:0px;
+  }
 }
 /*-------------------------------------------------------------------------*/
 @media(max-width:480px){
   .title h1 {
     font-size: 38px;
 }
+.navbar-dark .navbar-toggler-icon{
+  display: block;
+  clear:left
 }
+#aboutus{
+  padding-top: 100px;
+}
+}
+
 /*-------------------------------------------------------------------------*/
 @media(max-width:320px){
   .title h1 {
@@ -43,6 +60,12 @@
 }
 .title h4 {
   font-size: 20px;
+}
+#aboutus h1 {
+  font-size: 2em;
+}
+#aboutus h2 {
+  font-size: 1.2em;
 }
 }
 /*-------------------------------------------------------------------------*/

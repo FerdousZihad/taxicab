@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Lato', sans-serif; */
 
 *{
   margin: 0;
@@ -9,15 +12,16 @@ a, a:hover{
   text-decoration: none;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family:lato black;
+  font-family:'Lato', sans-serif ;
   text-transform: uppercase;
+  font-weight:900;
 }
 
 body{
   font-size: 17px;
 }
 p{
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   color:#101010;
 }
 .text-ylo{
@@ -42,10 +46,10 @@ header{
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
-  font-family: lato black;
+  font-family:'Lato', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
-  
+  font-weight: 900;
   padding:5px 15px;
   border-radius:17px;
   margin:0 5px;
@@ -70,10 +74,11 @@ header{
 }
 
 .heading_info{
-  padding-top:130px;
+  padding-top:90px;
 }
 .title{
   margin-top:50px;
+  margin-bottom: -17px;
 
 }
 .title h1{
@@ -96,32 +101,97 @@ header{
 /* ------------------------------------------------- */
 
  #aboutus{
-  padding-top: 150px;
+  padding-top: 166px;
   color:#101010;
+  padding-bottom:107px;
+}
+#aboutus .blog{
+  padding-right:96px;
 }
 #aboutus h1{
   font-size: 2.5em;
 
 
 }
-#aboutus a{
+#aboutus .blog a{
   background: #000000;
   border-radius: 5px;
   text-transform: uppercase;
-  font-family: Bebas Neue;
+  font-family: 'Bebas Neue', cursive;
+
+  font-size: 23px;
+  padding: 5px 20px;
+  letter-spacing: 1px;
   font-weight: bold;
-  font-size:22px;
-  
-  
+  color: #fff;
+  margin-top: 30px;
 }
+#aboutus form a{
+  background: #000000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+
+  font-size: 23px;
+  padding: 5px 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 45px;
+}
+#aboutus a:hover{
+  color:#ffc61a;
+}
+ .booking_form{
+   background:#ffffff;
+   width:380px;
+   padding-bottom: 1px;
+  
+ } 
+ .booking_form h2{
+   padding: 20px;
+   background: #171717;
+ }
+  
 #aboutus form{
   background: #ffffff;
+  margin:20px;
 }
-#aboutus form input{
+#aboutus form input,#aboutus form select{
   border:none;
   border-bottom:3px solid #e4e4e4;
-  margin-bottom: 3px;
-  width:50%;
+  border-radius: 0;
+ font-family: 'Lato', sans-serif;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#aboutus form input:focus{
+  box-shadow: none;
+  border-color: #ffc61a;
+}
+#aboutus form input[type=text]{
+  display:inline-block;
+  width:48%;
+}
+#aboutus form select:focus{
+  box-shadow: none;
+  border-color: #ffc61a;
+  color:black;
+  font-weight: 600;
+}
+#aboutus form button{
+  width:100%;
+  margin-bottom:30px;
+}
+#aboutus form ::placeholder{
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  
+
+}
+#aboutus form .black_placeholder::placeholder{
+  
+  color:black;
 }
 
 
