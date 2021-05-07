@@ -26,14 +26,61 @@
     background-size: cover;
     
   }
+  #tarrif .tarrif_title{
+    margin-bottom:0 ;
+  }
+
+  #tarrif .card{
+    margin-top: 150px;
+  }
+
+  .app_img img{
+    padding-top:20px;
+    position:absolute;
+    bottom:0;
+
+  }
+  #foot_up .fdownload {
+    margin:30px 0;
+}
+  #foot_up .fabout {
+    margin:30px 0;
+}
+  #foot_up .fcontact {
+    margin:30px 0;
+}
+
   
   
 }
+
 /*-------------------------------------------------------------------------*/
+@media(width:768px){
+  .app_img img{
+    padding-top:20px;
+    position:absolute;
+    bottom:0;
+
+  }
+
+}
 @media(max-width:768px){
   #aboutus .blog{
     padding-right:20px;
   }
+  #tarrif .tarrif_title{
+    margin-bottom: 0px;
+  }
+  .app_img img{
+    padding-top:20px;
+    position:unset;
+    bottom:0;
+
+  }
+  #testimoni .comments{
+    padding: 30px 50px 30px 50px;
+  }
+
 }
 /*-------------------------------------------------------------------------*/
 @media(max-width:576px){
@@ -53,6 +100,32 @@
 }
 #aboutus{
   padding-top: 100px;
+}
+.main_content_article p{
+  margin-right:0;
+  
+  
+}
+.content-info h1{
+  font-size:35px;
+}
+.app_info h1{
+  font-size:30px;
+}
+.app_content p{
+  margin-right: 0;
+}
+#contact h4{
+  font-size:22px;
+}
+#contact h1{
+  font-size:35px;
+}
+.man_info h5{
+  font-size: medium;
+}
+#testimoni .comments{
+  padding: 30px 30px 30px 50px;
 }
 }
 
@@ -74,6 +147,15 @@
 #aboutus h2 {
   font-size: 1.2em;
 }
+#tarrif .card {
+  margin-top: 100px;
+}
+#contact h4{
+  font-size:18px;
+}
+#contact h1{
+  font-size:30px;
+}
 }
 /*-------------------------------------------------------------------------*/
 @media(max-width:290px){
@@ -87,6 +169,9 @@
 }
 .title h4 {
   font-size: 14px;
+}
+.man_info h5{
+  font-size:small;
 }
 
 
